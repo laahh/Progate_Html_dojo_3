@@ -1,0 +1,39 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size:32px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+ 
+ span.menu-icon{
+    display:block;
+  }
+  .header-right{
+    display:none;
+  }
+  .top-wrapper{
+    text-align:left;
+  }
+  
+  .top-wrapper h1{
+    font-size:24px;
+    line-height:36px;
+    
+  }
+  
+  .top-wrapper p{
+    font-size:14px;
+    line-height:20px;
+    
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .btn{
+    width:100%;
+  }
+}

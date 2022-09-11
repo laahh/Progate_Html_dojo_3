@@ -1,0 +1,18 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  
+}
+
+/* For Smartphones */
+@media (max-width: 670px) {
+  .icon{
+    display:block;
+    color:white;
+    float:right;
+    padding:21px 0;
+    font-size:25px;
+  }
+  .header-right{
+    display:none;
+  }
+}
